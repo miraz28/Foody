@@ -1,0 +1,570 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../image/istockphoto-1219944808-612x612.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.header_top {
+    background-color: black;
+    opacity: 60%;
+   
+
+}
+
+.logo {
+    height: 1px;
+    padding-top: 10px;
+
+
+}
+
+.logo img {
+    width: 80px;
+    height: 30px;
+
+}
+
+.menu {
+    padding-left: 25%;
+
+
+}
+
+.menu ul {}
+
+.menu ul li {
+
+    display: inline-block;
+    list-style: none;
+}
+
+.menu ul li a {
+
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 14px;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: lighter;
+    position: relative;
+    top: 10px;
+
+
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.social {
+    padding-left: 70%;
+    position: relative;
+    bottom: 10px;
+}
+
+.fa-brands {
+    background-color: antiquewhite;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+
+.fa-brands:hover {
+    background-color: blue;
+    transition: .5s;
+}
+
+.header_bottom {
+    text-align: center;
+
+
+    padding-bottom: 15%;
+
+}
+
+.header_bottom h1 {
+    font-family: Gabriola;
+    color: white;
+    font-size: 65px;
+    padding-top: 14%;
+    text-shadow: 2px 1px 1px black;
+}
+
+.header_bottom span {
+    color: white;
+    word-spacing: 10px;
+    padding-top: 5%;
+}
+
+.header_bottom p {
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Helvetica, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 8%;
+    text-shadow: 1px 1px 1px black;
+
+
+
+}
+
+.header_bottom a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 8px 35px;
+    border-radius: 2px;
+    margin-top: 5%;
+
+}
+
+
+.header_bottom a:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+    font-weight: bolder;
+    box-shadow: none;
+}
+header{
+    margin-bottom: 12%;
+}
+
+.about {
+    width: 49%;
+    margin: 0 auto;
+    position: absolute;
+    top: 545px;
+    left:250px ;
+
+}
+
+.info {
+    overflow: hidden;
+}
+
+.image {
+    float: left;
+    width: 50%;
+}
+
+
+img {
+
+    width: 250px;
+    height: 250px;
+}
+
+.text{
+    padding-left: 25px;
+}
+
+.story {
+    float: left;
+    width: 50%;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.story a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #2D384E;
+    color: white;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 8px 40px;
+    border-radius: 2px;
+    margin-top: 5%
+    
+}
+
+.story h2 {
+    font-family: Gabriola;
+    font-size: 40px;
+    padding-top: 10%;
+}
+
+.story p {
+    font-family: Verdana;
+    font-size: 12px;
+    width: 80%;
+    text-align: justify;
+}
+
+.story a:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    font-weight: bolder;
+
+}
+
+.romantic {
+    background-image: url(../image/rose-color-meanings-hero.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.romantic p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-shadow: 2px 1px 2px gray;
+}
+
+.romantic span {
+    font-family: Gabriola;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 1px 3px gray;
+
+}
+
+.foodmenu {
+    overflow: hidden;
+}
+
+.foodmenu h1 {
+    font-family: Gabriola;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.write {
+    background-color: #A0B1A7;
+    color: white;
+    padding-bottom: 13px;
+}
+
+.write h2 {
+    font-family: Gabriola;
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.write p {
+    font-weight: lighter;
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.write span {
+    padding-left: 35%;
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+
+.write span:hover {
+    text-decoration: underline;
+}
+
+.menu1 {
+    float: left;
+    width: 50%;
+}
+
+.menu2 {
+    float: left;
+    width: 50%;
+}
+
+.image123 img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.menu11 {
+    overflow: hidden;
+
+}
+
+.menu11 .image123 {
+    float: left;
+    width: 50%;
+}
+
+.menu11 .write {
+    float: left;
+    width: 50%;
+}
+
+.menu12 {
+    overflow: hidden;
+}
+
+.menu12 .image123 {
+    float: left;
+    width: 50%;
+}
+
+.menu12 .write {
+    float: left;
+    width: 50%;
+}
+
+
+.menu13 {
+    overflow: hidden;
+}
+
+.menu13 .image123 {
+    float: left;
+    width: 50%;
+}
+
+.menu13 .write {
+    float: left;
+    width: 50%;
+}
+
+.menu21 {
+    overflow: hidden;
+}
+
+.menu21 .image123 {
+    float: left;
+    width: 50%;
+}
+
+.menu21 .write {
+    float: left;
+    width: 50%;
+}
+
+.menu22 {
+    overflow: hidden;
+}
+
+.menu22 .image123 {
+    float: left;
+    width: 50%;
+}
+
+.menu22 .write {
+    float: left;
+    width: 50%;
+}
+
+.menu23 {
+    overflow: hidden;
+}
+
+.menu23 .image123 {
+    float: left;
+    width: 50%;
+}
+
+.menu23 .write {
+    float: left;
+    width: 50%;
+}
+
+.video {
+    text-align: center;
+}
+
+.video h2 {
+    font-family: Gabriola;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+
+
+}
+
+a i {
+    background-color: black;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+
+.email {
+    overflow: hidden;
+}
+
+.email h2 {
+    font-family: Gabriola;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.email p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+form {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.emailbox {
+    color: black;
+    padding: 7px 80px 7px 20px;
+    border: none;
+
+}
+
+.button {
+    padding: 8px 20px;
+    color: white;
+    background-color: black;
+    position: relative;
+    right: 10px;
+    border: none;
+
+
+}
+
+.img {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    overflow: hidden;
+    
+}
+
+.img img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.footer_top .container{
+    
+    
+}
+
+.location{
+    float: left;
+    width: 40%;
+    background-color: #2D384E;
+    padding-left: 10%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+.location h2{
+    font-size: 17px;
+    font-weight: lighter;
+    padding-top: 10%;
+    padding-bottom: 30px;
+
+}
+
+.location p{
+    font-size: 12px;
+    padding-bottom: 5px;
+    
+}
+
+.location1{
+    float: left;
+    width: 50%;
+}
+
+.location2{
+    float: left;
+    width: 50%;
+}
+.hours{
+    float: left;
+    width: 40%;
+    background-color: #2D384E;
+   padding-right: 10%;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: lighter;
+   padding-bottom: 30px;
+}
+
+
+.hours h2{
+    font-size: 17px;
+    font-weight: lighter;
+    padding-top: 10%;
+    padding-bottom: 30px;
+
+}
+
+.hours p{
+    font-size: 12px;
+    padding-bottom: 5px;
+    
+}
+
+.hours1{
+    float: left;
+    width: 50%;
+}
+.hours2{
+    float: left;
+    width: 50%;
+}
+
+
+.footer_bottom{
+    background-color: black;
+    color: white;
+}
+
+.footer_bottom span{
+    position: relative;
+    top: 10px;
+}
+
+
+
+.social2{
+    padding-left: 70%;
+    position: relative;
+    bottom: 10px;
+}
+
+.social2 .fa-brands{
+    background-color: black;
+}
+
+
+
